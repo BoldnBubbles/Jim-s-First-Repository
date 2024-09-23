@@ -1,0 +1,94 @@
+
+
+/* Applying custom colors to Bootstrap classes */
+.bg-primary {
+    background-color: #000022 !important;
+}
+
+.text-primary {
+    color: rgb(255, 255, 255);
+}
+
+.bg-secondary {
+    background-color: #000022 !important;
+}
+
+.text-secondary {
+    color: red;
+}
+
+.bg-info {
+    background-color: #005E7C !important;
+}
+
+.text-info {
+    color: rgb(255, 255, 255);
+}
+/* Additional custom styles */
+
+body {
+    background-color: #9C9990;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Professional font */
+    line-height: 1.6; /* Improve readability with line spacing */
+}
+
+.name-style {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:white;
+}
+
+
+h1, h2, h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Georgia', serif; /* Use a more formal, serif font for headings */
+    font-weight: 700; /* Make headings bold for emphasis */
+    letter-spacing: 1px; /* Add some space between letters for elegance */
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font for paragraphs */
+    font-size: 1.1rem; /* Slightly increase font size for readability */
+}
+
+ul {
+    color:white;
+}
+
+.star-list {
+    list-style: none; /* Removes default bullet points */
+}
+
+.star-list li::before {
+    content: "★"; /* Unicode for the star symbol */
+    color: gold;  /* Star color (can change if needed) */
+    font-size: 16px; /* Adjust the size of the star */
+    margin-right: 10px; /* Adds space between star and text */
+}
+.asterisk-list {
+    list-style: none; /* Removes default bullet points */
+}
+
+.asterisk-list li::before {
+    content: "*"; /* Asterisk as the bullet */
+    color: rgb(255, 255, 255); /* You can change the color if desired */
+    font-size: 18px; /* Adjust the size of the asterisk */
+    margin-right: 10px; /* Adds space between the asterisk and the text */
+}
+.text-center {
+    text-align: center; /* Centers the text inside the columns */
+}
+.banner {
+    height: 60px; /* Make the container taller */
+    background: linear-gradient(45deg, #005E7C, #000022); /* Add a gradient background */
+    color: white; /* Set text color to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #2c3e50; /* Add a bottom border */
+    font-size: 3rem; /* Increase font size for the banner */
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Add some shadow for depth */
+}
